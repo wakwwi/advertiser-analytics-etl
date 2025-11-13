@@ -63,24 +63,32 @@ ms_ad_analytics_project/
 ```mermaid
 flowchart TD
 
-    A[Raw CSV Files<br/>orders, items, customers] --> B[Extract<br/>extract.py]
-    B --> C[Clean & Normalize Data<br/>transform.py]
-    C --> D[Build Advertiser Fact Table<br/>transform.py]
-    D --> E[Validate with Pandera<br/>validate.py]
-    E --> F[Compute KPIs<br/>daily + monthly]
-    F --> G[Load Outputs<br/>load.py]
-    G --> H[/output folder<br/>CSV exports]
+    A[Raw CSV Files\norders, items, customers] --> B[Extract\nextract.py]
+    B --> C[Clean & Normalize Data\ntransform.py]
+    C --> D[Build Advertiser Fact Table\ntransform.py]
+    D --> E[Validate with Pandera\nvalidate.py]
+    E --> F[Compute KPIs\ndaily + monthly]
+    F --> G[Load Outputs\nload.py]
+    G --> H[Output Folder\nCSV exports]
 
-    style A fill:#f8d568,stroke:#b8860b,stroke-width:2px,color:#000
-    style B fill:#8ec5fc,stroke:#4682b4,stroke-width:2px,color:#000
-    style C fill:#b5e8c8,stroke:#2e8b57,stroke-width:2px,color:#000
-    style D fill:#f6d7fa,stroke:#8b3a9e,stroke-width:2px,color:#000
-    style E fill:#ffe6e6,stroke:#cc0000,stroke-width:2px,color:#000
-    style F fill:#e8e8ff,stroke:#6666cc,stroke-width:2px,color:#000
-    style G fill:#ffffff,stroke:#000,color:#000
-    style H fill:#ffffff,stroke:#000,color:#000
+    %% Styles (GitHub-safe)
+    classDef yellow fill:#f8d568,stroke:#b8860b,stroke-width:2px,color:#000;
+    classDef blue fill:#8ec5fc,stroke:#4682b4,stroke-width:2px,color:#000;
+    classDef green fill:#b5e8c8,stroke:#2e8b57,stroke-width:2px,color:#000;
+    classDef purple fill:#f6d7fa,stroke:#8b3a9e,stroke-width:2px,color:#000;
+    classDef red fill:#ffe6e6,stroke:#cc0000,stroke-width:2px,color:#000;
+    classDef lightblue fill:#e8e8ff,stroke:#6666cc,stroke-width:2px,color:#000;
+    classDef white fill:#ffffff,stroke:#000,color:#000;
+
+    class A yellow
+    class B blue
+    class C green
+    class D purple
+    class E red
+    class F lightblue
+    class G white
+    class H white
 ```
-
 ---
 
 ## 📊 KPIs Produced
