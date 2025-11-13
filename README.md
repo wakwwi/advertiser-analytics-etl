@@ -110,12 +110,12 @@ Outputs are available at two time grains:
 
 Key columns include:
 
-- `advertiser_id` (seller)
-- `order_id`
-- `customer_id`
-- `order_item_id`
-- `order_date`
-- `order_month`
+- `advertiser_id` (seller)  
+- `order_id`  
+- `customer_id`  
+- `order_item_id`  
+- `order_date`  
+- `order_month`  
 - `line_revenue`  
 
 This mirrors a real **fact_sales** table used in enterprise analytics.
@@ -152,12 +152,12 @@ output/monthly_advertiser_kpis.csv
 
 The fact table is validated using a schema that checks:
 
-✅ Column presence  
-✅ Data types  
-✅ Non-negative revenue  
-✅ Valid advertiser/order/customer IDs  
-✅ Monthly format correctness (`YYYY-MM`)  
-✅ No invalid timestamps  
+- Column presence  
+- Data types  
+- Non-negative revenue  
+- Valid advertiser/order/customer IDs  
+- Monthly format correctness (`YYYY-MM`)  
+- No invalid timestamps  
 
 If validation fails, the pipeline exits — this matches production behavior.
 
@@ -181,12 +181,12 @@ INFO | Load complete. Files saved to /output.
 
 This project demonstrates skills required for:
 
-✅ **Data Engineering**  
-✅ **Analytics Engineering**  
-✅ **Business Analytics**  
-✅ **Data Analytics**
+- **Data Engineering**  
+- **Analytics Engineering**  
+- **Business Analytics**  
+- **Data Analytics**
 
-Key competencies you show:
+Key competencies you demonstrate:
 
 - ETL design  
 - Fact table modeling  
@@ -212,4 +212,3 @@ Key competencies you show:
 ## 👤 Author  
 **Errol Brown**  
 Data Engineering / Analytics  
-Microsoft Business Analytics Associate Candidate  
